@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.container h1 {
+    color: rgb(34, 34, 222);
+    text-decoration: underline;
+    height: 80px;
+}
+.box {
+    background-color: #2060c1;
+}
+.navbar {
+    width: 85%;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    border-bottom: #2060c1;
+}
+.navbar img {
+    height: 45px;
+    width: 45px;
+}
+.navbar ul {
+    text-align: center;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 6px;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.HomePage{
+    display:flex;
+}
+.foodPic img{
+      width: 490px;
+      height: 400px;
+}
+.para{
+    margin-top: 100px;
+}
+.para p{
+    margin-top: 19px;
+}
+.quote{
+    color: rgb(26, 68, 160);
+}
+.containerService{
+    background-image: url('logo.jpg');
+}
+
+.bg img{
+    height: 300px;
+    width: 300px;
+}
+.page{
+    display: flex;
+}
+.pageInfo{
+    margin-left: 45px;
+    background-color: rgb(1, 50, 50);
+    width: 900px;
+}
+
+.pageInfo h2{
+    text-align: center;
+    color:white;
+    background-color: rgb(2, 9, 7);
+    margin-bottom: 45px;
+}
+.pageInfo div{
+     
+    margin-left: 90px;
+    color: #d4d8dd;
+    margin-top: 45px;
+}
