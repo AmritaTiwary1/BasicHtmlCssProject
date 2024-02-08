@@ -18,7 +18,7 @@
     background-color: #2060c1;
 }
 .navbar {
-    width: 85%;
+    width: 100%;
     padding-top: 30px;
     margin: auto;
     display: flex;
@@ -35,7 +35,7 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 6px;
+    padding: auto;
 }
 .navbar ul li a {
     text-decoration: none;
@@ -59,29 +59,31 @@
 .containerService{
     background-image: url('logo.jpg');
 }
-
+.bg{
+    height: 30%;
+    width: 100%;
+}
 .bg img{
-    height: 300px;
-    width: 300px;
-}
-.page{
-    display: flex;
-}
-.pageInfo{
-    margin-left: 45px;
-    background-color: rgb(1, 50, 50);
-    width: 900px;
+    height: 30%;
+    width: 100%;
 }
 
+.pageInfo{
+    background-color: rgb(1, 50, 50);
+    width: 100%;
+}
 .pageInfo h2{
-    text-align: center;
+    text-align: left;
     color:white;
     background-color: rgb(2, 9, 7);
     margin-bottom: 45px;
 }
 .pageInfo div{
-     
-    margin-left: 90px;
+    text-align: left;
     color: #d4d8dd;
     margin-top: 45px;
 }
+.bg{
+    text-align: center;
+}
+
